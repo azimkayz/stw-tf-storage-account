@@ -42,7 +42,7 @@ module "storage_account" {
 | Name      | Version  |
 |-----------|----------|
 | terraform | >= 1.5.0 |
-| azurerm   | ~> 3.0   |
+| azurerm   | ~> 5.4.0   |
 
 ## Inputs
 
