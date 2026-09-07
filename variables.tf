@@ -47,3 +47,9 @@ variable "tags" {
   default     = {}
   description = "Optional tags to apply to the Storage Account."
 }
+
+variable "container_access_type" {
+  type        = string
+  default     = "private"
+  description = "Access level for the storage container."
+}
