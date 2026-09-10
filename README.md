@@ -17,9 +17,8 @@ Creates:
 Storage Account names can't contain hyphens and are capped at 24 characters
 (Azure platform constraint), so the standard convention is applied first,
 then sanitised:
-
 project_name = "projecta", environment = "prod":
-
+`stprojectaprodsouthafricanorth`
 
 The Storage Container supports hyphens normally and defaults to
 `syslog-data`, fully configurable via `container_name`.
